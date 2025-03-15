@@ -61,7 +61,7 @@ export default function Portfolio() {
               </div>
               <div className="w-full md:w-2/3">
                 <p className="text-lg text-slate-300 mb-6">
-                  I'm a passionate backend developer with a strong focus on algorithm design and optimization. I enjoy seeing clean solutions
+                  I'm a backend developer with a strong focus on algorithm design and optimization. I enjoy seeing clean solutions
                   to what seem to be complex problems.
                 </p>
                 <p className="text-lg text-slate-300 mb-6">
