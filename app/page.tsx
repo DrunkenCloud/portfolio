@@ -43,9 +43,19 @@ export default function Portfolio() {
               I build robust server-side programs, automations and solve problems with efficient algorithms.
             </p>
             <div className="flex gap-4 justify-center">
-              <Button className="bg-purple-600 hover:bg-purple-700">
-                View Projects <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+            <Button
+              className="bg-purple-600 hover:bg-purple-700"
+              onClick={() => {
+                const random = Math.floor(Math.random() * 2);
+                const url =
+                  random === 0
+                    ? "https://github.com/DrunkenCloud?tab=repositories"
+                    : "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                window.open(url, "_blank");
+              }}
+            >
+              View Projects <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
             </div>
           </div>
         </section>
