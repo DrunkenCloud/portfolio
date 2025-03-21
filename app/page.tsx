@@ -46,11 +46,12 @@ export default function Portfolio() {
             <Button
               className="bg-purple-600 hover:bg-purple-700"
               onClick={() => {
-                const random = Math.floor(Math.random() * 2);
+                const random = Math.floor(Math.random() * 10);
+                console.log(random);
                 const url =
                   random === 0
-                    ? "https://github.com/DrunkenCloud?tab=repositories"
-                    : "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                    ? "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    : "https://github.com/DrunkenCloud?tab=repositories";
                 window.open(url, "_blank");
               }}
             >
