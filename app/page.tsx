@@ -28,7 +28,7 @@ export default function Portfolio() {
         <Button
           variant="outline"
           className="border-purple-500 text-purple-500 hover:bg-purple-950 px-4 py-2 rounded-lg cursor-pointer"
-          onClick={() => window.open('/resume.pdf', '_blank')}
+          onClick={() => window.open('/Niranjhan_Resume_14-07-2025.pdf', '_blank')}
         >
           Resume
         </Button>
